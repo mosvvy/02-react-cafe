@@ -8,9 +8,3 @@ export interface Votes {
   neutral: number;
   bad: number;
 }
-
-export interface VoteOptionsProps {
-  onVote: (type: VoteType) => void;
-  onReset: () => void;
-  canReset: boolean;
-}
